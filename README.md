@@ -32,3 +32,41 @@ SkyboxWallpaper/
 ├── index.html
 ├── style.css
 └── script.js
+```
+## How to turn the wallpaper lively
+
+Lively Wallpaper (Windows - Free & Open Source)
+Open Lively Wallpaper.
+
+Click the + (Add Wallpaper) button in the top right.
+
+Drag and drop the index.html file into the application window (or browse to it).
+
+Set title/metadata and click OK.
+
+Select the tile to apply it as your active background.
+
+Wallpaper Engine (Windows / Steam)
+Open Wallpaper Engine.
+
+Click Open Wallpaper (bottom-left) ➔ Open Offline Wallpaper.
+
+Select index.html and click Apply.
+
+macOS (WebViewScreenSaver / Plucka)
+Configure your WebKit wallpaper runner.
+
+Direct the URL source to your local path: file:///Users/username/path/to/SkyboxWallpaper/index.html.
+
+⚙️ Usage Controls
+Click the ⚙ (Gear) icon in the bottom-right corner to open the HUD controls.
+
+Toggle between 12-Hour and 24-Hour modes.
+
+Select a region from the dropdown and click + Add Clock to generate a new widget.
+
+Drag any clock by clicking and holding the card body.
+
+Click ✕ on any secondary clock card to remove it.
+
+Click Reset Clock Positions to restore the default single-clock layout.
