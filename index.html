@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Procedural Skybox Wallpaper - Multi-Clock</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <!-- Skybox Background Elements -->
+    <div id="skybox">
+        <div id="stars"></div>
+        <div id="celestial-body" class="sun"></div>
+        <div id="clouds">
+            <div class="cloud cloud1"></div>
+            <div class="cloud cloud2"></div>
+            <div class="cloud cloud3"></div>
+        </div>
+    </div>
+
+    <!-- Container for Dynamic Clocks -->
+    <div id="clocks-container"></div>
+
+    <!-- Settings Toggle Gear Button -->
+    <button id="settings-toggle" title="Wallpaper Settings">⚙</button>
+
+    <!-- Settings Control Panel -->
+    <div id="settings-panel" class="hidden">
+        <h3>Wallpaper Controls</h3>
+        
+        <div class="setting-group">
+            <label>Time Format:</label>
+            <div class="toggle-buttons">
+                <button id="btn-12h" class="active">12-Hour</button>
+                <button id="btn-24h">24-Hour</button>
+            </div>
+        </div>
+
+        <div class="setting-group">
+            <label for="timezone-select">Add World Clock:</label>
+            <select id="timezone-select">
+                <option value="America/New_York">New York (EST/EDT)</option>
+                <option value="Europe/London">London (GMT/BST)</option>
+                <option value="Europe/Paris">Paris (CET/CEST)</option>
+                <option value="Asia/Dubai">Dubai (GST)</option>
+                <option value="Asia/Kolkata">India (IST)</option>
+                <option value="Asia/Singapore">Singapore (SGT)</option>
+                <option value="Asia/Tokyo">Tokyo (JST)</option>
+                <option value="Australia/Sydney">Sydney (AEST/AEDT)</option>
+                <option value="UTC">UTC / GMT</option>
+            </select>
+            <button id="add-clock-btn">+ Add Clock</button>
+        </div>
+
+        <button id="reset-layout-btn">Reset Clock Positions</button>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
